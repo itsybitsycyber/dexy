@@ -32,3 +32,6 @@ jobs:
     
     - name: Run Truffle Test with CI=true for Codechecks  
       run: CI=true truffle test
+
+    - name: Deploy to Ropsten
+      run: truffle console --network ropsten
